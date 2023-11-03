@@ -1,0 +1,25 @@
+.keytag {
+    border-radius: 75px;
+    background-color: #ff8cf7 ;
+    padding: 0.25rem .75rem;
+    color: black;
+    cursor: default;
+    font-size: small;
+    font-weight: 800;
+    margin: .2rem 0;
+}
+
+.keytag.string {
+    background-color: #7FC8FF;
+    color: white;
+}
+
+.keytag.array {
+    background-color: #faff5e;
+    color: black;
+}
+
+.keytag.object {
+    background-color: green;
+    color: white;
+}

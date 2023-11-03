@@ -1,0 +1,100 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .keytag-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .helper-text {
+    font-size: .75rem;
+    color: #959DA5;
+    width: 100%;
+    padding: .25rem 0;
+    display: block;
+    text-align: center;
+  }
+
+  .error {
+    background-color: #ff7777;
+    color: #fff;
+    margin: .5rem auto;
+    transition: background-color 0.2s;
+  }
+
+  .info {
+    color: #7777bb;
+    /* color: #fff; */
+    margin: .5rem auto;
+    transition: all 0.2s;
+  }
+
+  .pile {
+      margin: .5rem auto;
+      opacity: 0;
+      transition: all ease-in 0.2s;
+  }
+
+  .pile.active {
+    opacity: 1;
+  }
+
+  .btn {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+
+  .btn:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+
+  .btn:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+
+  .btn:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+
+  .btn:focus {
+    outline: 1px transparent;
+  }
+
+  .btn:before {
+    display: none;
+  }
+
+  .btn:-webkit-details-marker {
+    display: none;
+  }
